@@ -8,15 +8,19 @@ This repository is a collection of R scripts that visually represent some of the
 A series is the sum of the terms of a sequence of numbers. The series is convergent if approaches a given number, otherwise divergent.  
 An example of convergent series is  
 <p align="center">
-<img src="readme/images/convergentseriesto2formula.png" />  
-<img src="readme/images/convergentseriesto2.png" />  
-<a href="R/ConvergentSeriesTo2.R">R code link</a>  
+<img src="readme/images/convergentseriesto2formula.png" />
+<br/>
+<img src="readme/images/convergentseriesto2.png" />
+<br/>
+<a href="R/ConvergentSeriesTo2.R">R code link</a>
 </p>
 The harmonic series diverges  
 <p align="center">
-<img src="readme/images/harmonicseries.png" />  
-<img src="readme/images/harmonicseriesformula.png" />  
-<a href="R/HarmonicSeries.R">R code link</a>  
+<img src="readme/images/harmonicseriesformula.png" />
+<br/>
+<img src="readme/images/harmonicseries.png" />
+<br/>
+<a href="R/HarmonicSeries.R">R code link</a>
 </p>
 
 ###Functions
