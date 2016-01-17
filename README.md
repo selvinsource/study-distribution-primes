@@ -24,20 +24,18 @@ The harmonic series diverges
 </p>
 
 ###Functions
-A function is a relation between an input and a single output according to some rule.
-Example of functions:
+A function is a relation between an input and a single output according to some rule.  
+Example of functions:  
+* a function whose rule is to count the number of factors for a given argument (referred also as d(N))  
+* a function whose rule is to count the number of prime factors for a given argument  
 <p align="center">
-a function whose rule is to count the number of factors for a given argument (referred also as d(N))
-<br/>
-a function whose rule is to count the number of prime factors for a given argument
-<br/>
-<img src="readme/images/harmonicseries.png" />
+<img src="readme/images/factorcountingfunction.png" />
 <br/>
 <a href="R/FactorCountingFunction.R">R code</a>
 </p>
 
 ###The Prime Counting Function
-The Prime Counting Function π(N), the central study of the Riemann's 1859 paper, is defined to be the number of primes up to N
+The Prime Counting Function π(N), the central study of the Riemann's 1859 paper, is defined to be the number of primes up to N  
 <p align="center">
 <img src="readme/images/primecountingfunction.png" />
 <br/>
@@ -46,42 +44,63 @@ The Prime Counting Function π(N), the central study of the Riemann's 1859 paper
 
 The Prime Number Theorem (PNT) states
 <p align="center">
-<img src="readme/images/theprimenumbertheorem.png" />
-<br/>
 <img src="readme/images/theprimenumbertheoremformula.png" />
+<br/>
+<img src="readme/images/theprimenumbertheorem.png" />
 <br/>
 <a href="R/ThePrimeNumberTheorem.R">R code</a>
 </p>
-The log function is close to N/π(N) and the error (the red line) gets smaller the larger is N.
+The log function is close to N/π(N) and the error (the red line) gets smaller the larger is N.  
 
-The log integral function Li(x) is defined as
-	integral 1/logt dt (see page 114)
-	graph
-	R code link
+The log integral function Li(x) is defined as  
+<p align="center">
+<img src="readme/images/thelogintegralfunctionformula.png" />
+<br/>
+<img src="readme/images/thelogintegralfunction.png" />
+<br/>
+<a href="R/TheLogIntegralFunction.R">R code</a>
+</p>
 
-The PNT (improved version) states
-	TT(N) tilde Li(N) (see page 116)
-	graph
-	R code link
-The log integral function is a much better estimate than N/log N.
+The PNT (improved version) states  
+<p align="center">
+<img src="readme/images/theprimenumbertheoremimprovedformula.png" />
+<br/>
+<img src="readme/images/theprimenumbertheoremimproved.png" />
+<br/>
+<a href="R/ThePrimeNumberTheoremImproved.R">R code</a>
+</p>
+The log integral function is a much better estimate than N/logN.  
 
-Von Koch's 1901 result
-	 π(N) = Li(N) + O(sqrt(x) * logx)
-	graph
-	R code link
-That is TT(N) - Li(N) is big oh of sqrt(x) * logx, meaning TT(N) - Li(N) never exceeds some fixed multiple of sqrt(x) * logx.
-The result is valid if the Riemann Hypothesis is true (stated in the Riemann's Zeta Function section below).
+Von Koch's 1901 result  
+<p align="center">
+<img src="readme/images/vonkochresultformula.png" />
+<br/>
+<img src="readme/images/vonkockresult.png" />
+<br/>
+<a href="R/VonKochResult.R">R code</a>
+</p>
+That is π(x)-Li(x) is big oh of sqrt(x)*logx, meaning π(x)-Li(x) never exceeds some fixed multiple of sqrt(x)*logx.  
+The result is valid if the Riemann Hypothesis is true (stated in the Riemann's Zeta Function section below).  
 
-Prime Counting step Function for real number TT(x)
-	graph
-	R code link
-defined as the number of primes up to the real number x.
-Riemann defined another step function in terms of TT(x)
-	J(x) = TT(x) + … (see page 299)
-	graph
-	R code link
-Inverting the above relationship
-	TT(x) = J(x) + … (see page 302)
+Prime Counting step Function for real number π(x)  
+<p align="center">
+<img src="readme/images/primecountingfunctionreal.png" />
+<br/>
+<a href="R/PrimeCountingFunctionReal.R">R code</a>
+</p>
+defined as the number of primes up to the real number x.  
+Riemann defined another step function in terms of π(x)  
+<p align="center">
+<img src="readme/images/jfunctionrealformula.png" />
+<br/>
+<img src="readme/images/jfunctionreal.png" />
+<br/>
+<a href="R/JFunctionReal.R">R code</a>
+</p>
+Inverting the above relationship  
+<p align="center">
+<img src="readme/images/pifunctionrealformula.png" />
+</p>
 
 ###Riemann's Zeta Function
 The Basel series converges (each term is the square of the corresponding term in the harmonic series which diverges)
