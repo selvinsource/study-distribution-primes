@@ -31,4 +31,4 @@ J <- function(x) {
 x <- seq(1,10,by=0.1)
 y <- sapply(x,J)
 plot(x,y,type="p")
-title("J(x) = sum(1/t*π(x^(1/t)))")
+title("J(x) in terms of π(x)")

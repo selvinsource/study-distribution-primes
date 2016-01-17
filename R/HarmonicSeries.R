@@ -15,7 +15,7 @@ if(TRUE){
   x <- c(1:1000)
   y <- f(x)
   plot(x,y,type="l")
-  title("Harmonic Series")
+  title("Harmonic series diverges")
 }
 
 #recursion is slow
@@ -24,5 +24,5 @@ if(FALSE){
   x <- c(1:1000)
   y <- sapply(x,f)
   plot(x,y,type="l")
-  title("Harmonic Series")
+  title("Harmonic series diverges")
 }

@@ -1,4 +1,4 @@
-#Von Koch's 1901 Result: π(N) = Li(N) + O(sqrt(x) * logx)
+#Von Koch's 1901 Result: π(x) = Li(x) + O(sqrt(x) * logx)
 #π(N) is the count of the number of primes up to a quantity
 #Li(N) is the log integral function (integral of 1/logN)
 #p237
@@ -32,4 +32,4 @@ y3 <- sqrt(x) * log(x)
 #Lowell Schoenfeld constant 1/(8*pi)
 plot(x,1/(8*pi)*y3,type="l",col="blue",ann=FALSE)
 lines(x,abs(y1-y2), col="red")
-title("Von Koch's 1901 Result",xlab="N values",ylab="π(N)-Li(N)=red, O(sqrt(x) * logx)=blue")
+title("Von Koch's 1901 Result",xlab="x values",ylab="π(x)-Li(x)=red, O(sqrt(x)*logx)=blue")

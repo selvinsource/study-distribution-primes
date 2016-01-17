@@ -1,4 +1,4 @@
-#Li(N) is the log integral function (integral of 1/logN)
+#Li(x) is the log integral function (integral of 1/logx)
 #p115
 options(digits=20)
 integrand <- function(x) {1/log(x)}
@@ -21,4 +21,4 @@ x <- seq(0,10,by=0.01)
 y <- sapply(x,Li)
 plot(x,y,type="l",col="blue",ann=FALSE)
 abline(h=0,v=1,col="green")
-title("The Log Integral Function",xlab="N values",ylab="Li(N) = blue")
+title("The Log Integral Function",xlab="x values",ylab="Li(x) = blue")
