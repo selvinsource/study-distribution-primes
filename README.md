@@ -25,7 +25,7 @@ The harmonic series diverges
 
 ###Functions
 A function is a relation between an input and a single output according to some rule.  
-Example of functions:  
+Example of functions:
 * a function whose rule is to count the number of factors for a given argument (referred also as d(N))  
 * a function whose rule is to count the number of prime factors for a given argument  
 <p align="center">
@@ -75,11 +75,11 @@ Von Koch's 1901 result
 <p align="center">
 <img src="readme/images/vonkochresultformula.png" />
 <br/>
-<img src="readme/images/vonkockresult.png" />
+<img src="readme/images/vonkochresult.png" />
 <br/>
 <a href="R/VonKochResult.R">R code</a>
 </p>
-That is π(x)-Li(x) is big oh of sqrt(x)*logx, meaning π(x)-Li(x) never exceeds some fixed multiple of sqrt(x)*logx.  
+That is π(x)-Li(x) is big oh of sqrt(x)\*logx, meaning π(x)-Li(x) never exceeds some fixed multiple of sqrt(x)\*logx.  
 The result is valid if the Riemann Hypothesis is true (stated in the Riemann's Zeta Function section below).  
 
 Prime Counting step Function for real number π(x)  
@@ -89,6 +89,7 @@ Prime Counting step Function for real number π(x)
 <a href="R/PrimeCountingFunctionReal.R">R code</a>
 </p>
 defined as the number of primes up to the real number x.  
+
 Riemann defined another step function in terms of π(x)  
 <p align="center">
 <img src="readme/images/jfunctionrealformula.png" />
@@ -97,6 +98,7 @@ Riemann defined another step function in terms of π(x)
 <br/>
 <a href="R/JFunctionReal.R">R code</a>
 </p>
+
 Inverting the above relationship  
 <p align="center">
 <img src="readme/images/pifunctionrealformula.png" />
