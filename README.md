@@ -25,7 +25,7 @@ The harmonic series diverges
 
 ###Functions
 A function is a relation between an input and a single output according to some rule.  
-Example of functions:
+Example of functions:  
 * a function whose rule is to count the number of factors for a given argument (referred also as d(N))  
 * a function whose rule is to count the number of prime factors for a given argument  
 <p align="center">
