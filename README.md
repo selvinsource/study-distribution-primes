@@ -5,15 +5,15 @@ This repository is a collection of R scripts that visually represent some of the
 [Derbyshire, J. (2004)] main objective is to show the connection between the distribution of primes and the zeros of the zeta function: this is the main result of Riemann's 1859 paper "On the number of primes less than a given Quantity" that also contains the unsolved Riemann Hypothesis.
 
 ###Series
-A series is the sum of the terms of a sequence of numbers. The series is convergent if approaches a given number, otherwise divergent.
-An example of convergent series is
-<img src="readme/images/convergentseriesto2formula.png" title="" alt="" width="672" />
-<img src="readme/images/convergentseriesto2.png" title="" alt="" width="672" />
-[R code link](R/ConvergentSeriesTo2.R)
-The harmonic series diverges
-<img src="readme/images/harmonicseries.png" title="" alt="" width="672" />
-<img src="readme/images/harmonicseriesformula.png" title="" alt="" width="672" />
-[R code link](R/HarmonicSeries.R)
+A series is the sum of the terms of a sequence of numbers. The series is convergent if approaches a given number, otherwise divergent.  
+An example of convergent series is  
+<img src="readme/images/convergentseriesto2formula.png" />  
+<img src="readme/images/convergentseriesto2.png" />  
+[R code link](R/ConvergentSeriesTo2.R)  
+The harmonic series diverges  
+<img src="readme/images/harmonicseries.png" />  
+<img src="readme/images/harmonicseriesformula.png" />  
+[R code link](R/HarmonicSeries.R)  
 
 ###Functions
 A function is a relation between an input and a single output according to some rule.
