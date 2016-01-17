@@ -6,14 +6,18 @@ This repository is a collection of R scripts that visually represent some of the
 
 ###Series
 A series is the sum of the terms of a sequence of numbers. The series is convergent if approaches a given number, otherwise divergent.  
-An example of convergent series is  
+An example of convergent series is
+<p align="center">  
 <img src="readme/images/convergentseriesto2formula.png" />  
 <img src="readme/images/convergentseriesto2.png" />  
 [R code link](R/ConvergentSeriesTo2.R)  
+</p>
 The harmonic series diverges  
+<p align="center">
 <img src="readme/images/harmonicseries.png" />  
 <img src="readme/images/harmonicseriesformula.png" />  
 [R code link](R/HarmonicSeries.R)  
+</p>
 
 ###Functions
 A function is a relation between an input and a single output according to some rule.
