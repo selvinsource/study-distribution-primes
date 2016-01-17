@@ -12,7 +12,7 @@ An example of convergent series is
 <br/>
 <img src="readme/images/convergentseriesto2.png" />
 <br/>
-<a href="R/ConvergentSeriesTo2.R">R code link</a>
+<a href="R/ConvergentSeriesTo2.R">R code</a>
 </p>
 The harmonic series diverges  
 <p align="center">
@@ -20,27 +20,39 @@ The harmonic series diverges
 <br/>
 <img src="readme/images/harmonicseries.png" />
 <br/>
-<a href="R/HarmonicSeries.R">R code link</a>
+<a href="R/HarmonicSeries.R">R code</a>
 </p>
 
 ###Functions
 A function is a relation between an input and a single output according to some rule.
 Example of functions:
-	a function whose rule is to count the number of factors for a given argument (referred also as d(N))
-	a function whose rule is to count the number of prime factors for a given argument
-	graph
-	R code link
+<p align="center">
+a function whose rule is to count the number of factors for a given argument (referred also as d(N))
+<br/>
+a function whose rule is to count the number of prime factors for a given argument
+<br/>
+<img src="readme/images/harmonicseries.png" />
+<br/>
+<a href="R/FactorCountingFunction.R">R code</a>
+</p>
 
 ###The Prime Counting Function
-The Prime Counting Function TT(N), the central study of the Riemann's 1859 paper, is defined to be the number of primes up to N
-	graph
-	R code link
+The Prime Counting Function π(N), the central study of the Riemann's 1859 paper, is defined to be the number of primes up to N
+<p align="center">
+<img src="readme/images/primecountingfunction.png" />
+<br/>
+<a href="R/PrimeCountingFunction.R">R code</a>
+</p>
 
 The Prime Number Theorem (PNT) states
-	TT(N) tilde N/logN
-	graph
-	R code link
-The log function is close to N/TT(N) and the error (the red line) gets smaller the larger is N.
+<p align="center">
+<img src="readme/images/theprimenumbertheorem.png" />
+<br/>
+<img src="readme/images/theprimenumbertheoremformula.png" />
+<br/>
+<a href="R/ThePrimeNumberTheorem.R">R code</a>
+</p>
+The log function is close to N/π(N) and the error (the red line) gets smaller the larger is N.
 
 The log integral function Li(x) is defined as
 	integral 1/logt dt (see page 114)
