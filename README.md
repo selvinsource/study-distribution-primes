@@ -117,11 +117,7 @@ This is Euler's solution of the Basel problem which also gave a closed form for 
 
 The Riemann zeta function
 <p align="center">
-<img src="readme/images/riemannzetafunctionformula1.png" />
-<br/>
-<img src="readme/images/riemannzetafunctionformula2.png" />
-<br/>
-<img src="readme/images/riemannzetafunctionformula3.png" />
+<img src="readme/images/riemannzetafunctionformula.png" />
 <br/>
 <img src="readme/images/riemannzetafunction.png" />
 <br/>
@@ -133,16 +129,16 @@ When s = 2, the zeta function is the Basel series and the value is π^2/6.
 The series describes only part of the zeta function (s > 1).
 Zeta function extended domain using
 <p align="center">
-<img src="readme/images/riemannzetafunctionfulldomainformula.png" />
+<img src="readme/images/riemannzetafunctionfulldomainformula1.png" />
+<br/>
+<img src="readme/images/riemannzetafunctionfulldomainformula2.png" />
+<br/>
+<img src="readme/images/riemannzetafunctionfulldomainformula3.png" />
 <br/>
 <img src="readme/images/riemannzetafunctionfulldomain.png" />
 <br/>
 <a href="R/RiemannZetaFunctionFullDomain.R">R code</a>
 </p>
-	Z(s) = n(s) + (1-1/2^s-1) for s > 0 and s < 1 (see page 146)
-	Z(1-s) = … for s < 0 (see page 147)
-	graph
-	R code link
 The zeta function is zero when s is a negative even number. These are the trivial zeros.
 
 Extending the domain to complex numbers, the Riemann Hypothesis states that
