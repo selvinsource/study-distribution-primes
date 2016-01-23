@@ -50,12 +50,12 @@ integrateJ <- sapply(s,integrateJFun)
 plot(s,logZ,type="l",ann=FALSE)
 lines(s,integrateJ,col="blue")
 abline(h=1,v=1,col="green")
-title("The Golden Key (calculus version)",xlab="s",ylab="1/2*log(Z(s)) = black, integral J(x) * x^(-s-1) = blue")
+title("Riemann's Calculus version",xlab="s",ylab="1/s*log(Z(s)) = black, integral(J(x)*x^(-s-1)) = blue")
 
 s <- 1.2
 x <- seq(1,20,by=0.1)
 integrandJ <- sapply(x,J) * x^(-s-1)
 plot(x,integrandJ,type="l",ann=FALSE)
-title("Integrand Function: J(x) * x^(-s-1) for s=1.2",xlab="x")
+title("Integrand Function: J(x)*x^(-s-1) for s=1.2",xlab="x")
 
 par(opar)

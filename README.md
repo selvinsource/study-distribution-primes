@@ -142,7 +142,7 @@ The series describes only part of the zeta function (s > 1).
 The zeta function is zero when s is a negative even number. These are the trivial zeros.  
 
 Extending the domain to complex numbers,  
-the **Riemann Hypothesis** states that **all non-trivial zeros of the zeta function have real part one-half**  
+the **Riemann Hypothesis** states that **all non-trivial zeros of the zeta function have real part one-half**.  
 In other words, the zeros are complex numbers of type **1/2+Ti**, thus all lying on the critical line Re(s) = 1/2.  
 
 Value complex plane, showing points coming from the critical line  
@@ -178,31 +178,52 @@ As important as the Möbius function is its cumulative value called Mertens's fu
 <br/>
 <a href="R/MertensFunction.R">R code</a>
 </p>
-The above is equivalent to Denjoy's Probabilistic Interpretation of the Riemann Hypothesis: a square-free number has either an even or odd number of prime factors with a 50-50 probability ([Edwards, H. M. (2001)], pp 268-269).  
+The above is equivalent to Denjoy's Probabilistic Interpretation of the Riemann Hypothesis: a square-free number has either an even or odd number of prime factors with a 50-50 probability, [Edwards, H. M. (2001)], pp 268-269.  
 
 ###Riemann's 1859 paper main result
-Euler product formula
-	SUM n^s-1 = PROD 1-p^-s^-1 (see p105)
-On the left hand a sum including all positive whole numbers, on the right hand a product including all prime numbers.
-	graph
-	R code link
+Euler product formula  
+<p align="center">
+<img src="readme/images/thegoldenkeyformula.png" />
+<br/>
+<img src="readme/images/thegoldenkey.png" />
+<br/>
+<a href="R/TheGoldenKey.R">R code</a>
+</p>
+On the left hand a sum including all positive whole numbers (the zeta function), on the right hand a product including all prime numbers.  
 
-Riemann, in his 1859 paper,  rewrote the above formula in calculus version
-	expression 19-6 (see page 309)
-	graph
-	R code link
+Riemann, in his 1859 paper, rewrote the above formula in calculus version  
+<p align="center">
+<img src="readme/images/thegoldenkeycalculusformula.png" />
+<br/>
+<img src="readme/images/thegoldenkeycalculus.png" />
+<br/>
+<a href="R/TheGoldenKeyCalculus.R">R code</a>
+</p>
 
-By inverting the expression above
-	J(x) = … (page 328)
-	graph
-	R code link
-This represent the main result of Riemann's 1859 paper.
-It follows that tt can be expressed in terms of j, j in terms of zeta, therefore tt can be expressed in terms of zeta function.
+By inverting the expression above  
+<p align="center">
+<img src="readme/images/riemannmainresultformula.png" />
+<br/>
+<img src="readme/images/riemannmainresult.png" />
+<br/>
+<a href="R/RiemannMainResult.R">R code</a>
+</p>
 
-That is the distribution of primes (TT(x)) depends on the non-trivial zero's of the zeta function. 
+This represent the main result of Riemann's 1859 paper:  
+π(x) can be expressed in terms of J(x)  
+<p align="center">
+<img src="readme/images/pifunctionrealformula.png" />
+</p>
+J(x) in terms of zeta function  
+<p align="center">
+<img src="readme/images/riemannmainresultformula.png" />
+</p>
+therefore π(x) can be expressed in terms of zeta function.  
 
-Since the Riemann Hypothesis is a statement on these zeros, if it is true, some properties follow.
-However if the Riemann Hypothesis is false, Riemann's main result is still valid, in fact it was proved by von Mangoldt in 1895.
+That is the distribution of primes π(x) depends on the non-trivial zero's of the zeta function.  
+
+Since the Riemann Hypothesis is a statement on these zeros, if it is true, some properties follow.  
+However if the Riemann Hypothesis is false, Riemann's main result is still valid, in fact it was proved by von Mangoldt in 1895.  
 
 ###References
 * [Derbyshire, J. (2004)] Prime Obsession: Bernhard Riemann and the Greatest Unsolved Problem in Mathematics, New York: Penguin

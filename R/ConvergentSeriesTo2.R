@@ -1,5 +1,6 @@
 #The series 1 + 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + ... converges to 2
 #p17
+#for formulae images use http://www.sciweavers.org/free-online-latex-equation-editor
 
 options(digits=20)
 
