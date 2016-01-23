@@ -105,11 +105,15 @@ Inverting the above relationship
 </p>
 
 ###Riemann's Zeta Function
-The Basel series converges (each term is the square of the corresponding term in the harmonic series which diverges)
-	1 + 1/2^2 + 1/3^2 + 1/4^2 + 1/5^2 + 1/6^2 + ... = pi^2/6
-	graph
-	R code link
-This is Euler's solution of the Basel problem which also gave a closed form for all even number. For odd numbers there is no closed form.
+The Basel series converges (each term is the square of the corresponding term in the harmonic series which diverges)  
+<p align="center">
+<img src="readme/images/thebaselproblemformula.png" />
+<br/>
+<img src="readme/images/thebaselproblem.png" />
+<br/>
+<a href="R/TheBaselProblem.R">R code</a>
+</p>
+This is Euler's solution of the Basel problem which also gave a closed form for all even number. For odd numbers there is no closed form.  
 
 The Riemann zeta function
 	Z(s) = 1 + 1/2^s + 1/3^s+ 1/4^s + 1/5^s + 1/6^s + ... = SUM n^-s (see page 79)
