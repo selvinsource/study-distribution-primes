@@ -208,9 +208,9 @@ By inverting the expression above
 <br/>
 <a href="R/RiemannMainResult.R">R code</a>
 </p>
-
-This represent the main result of Riemann's 1859 paper:  
-π(x) can be expressed in terms of J(x)  
+This represent the main result of Riemann's 1859 paper.
+  
+To summarize, π(x) can be expressed in terms of J(x)  
 <p align="center">
 <img src="readme/images/pifunctionrealformula.png" />
 </p>
@@ -222,7 +222,7 @@ therefore π(x) can be expressed in terms of zeta function.
 
 That is the distribution of primes π(x) depends on the non-trivial zero's of the zeta function.  
 
-Since the Riemann Hypothesis is a statement on these zeros, if it is true, some properties follow.  
+Since the Riemann Hypothesis is a statement on these zeros, if it is true, some properties follow on the distribution of primes.  
 However if the Riemann Hypothesis is false, Riemann's main result is still valid, in fact it was proved by von Mangoldt in 1895.  
 
 ###References
