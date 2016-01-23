@@ -115,7 +115,7 @@ The Basel series converges (each term is the square of the corresponding term in
 </p>
 This is Euler's solution of the Basel problem which also gave a closed form for all even number. For odd numbers there is no closed form.  
 
-The Riemann zeta function
+The Riemann zeta function  
 <p align="center">
 <img src="readme/images/riemannzetafunctionformula.png" />
 <br/>
@@ -123,11 +123,11 @@ The Riemann zeta function
 <br/>
 <a href="R/RiemannZetaFunction.R">R code</a>
 </p>
-When s = 1, the zeta function is the harmonic series and it has no value (inf).
-When s = 2, the zeta function is the Basel series and the value is π^2/6.
+When s = 1, the zeta function is the harmonic series and it has no value (inf).  
+When s = 2, the zeta function is the Basel series and the value is π^2/6.  
 
-The series describes only part of the zeta function (s > 1).
-Zeta function extended domain using
+The series describes only part of the zeta function (s > 1).  
+**Zeta function extended domain using** 
 <p align="center">
 <img src="readme/images/riemannzetafunctionfulldomainformula1.png" />
 <br/>
@@ -139,32 +139,46 @@ Zeta function extended domain using
 <br/>
 <a href="R/RiemannZetaFunctionFullDomain.R">R code</a>
 </p>
-The zeta function is zero when s is a negative even number. These are the trivial zeros.
+The zeta function is zero when s is a negative even number. These are the trivial zeros.  
 
-Extending the domain to complex numbers, the Riemann Hypothesis states that
-	all non-trivial zeros of the zeta function have real part one-half
-In other words, the zeros are complex numbers of type 1/2+Ti, thus all lying on the critical line Re(s) = 1/2.
+Extending the domain to complex numbers,  
+the **Riemann Hypothesis** states that **all non-trivial zeros of the zeta function have real part one-half**  
+In other words, the zeros are complex numbers of type **1/2+Ti**, thus all lying on the critical line Re(s) = 1/2.  
 
-Value complex plane, showing points coming from the critical line
-	graph
-	R code link
+Value complex plane, showing points coming from the critical line  
+<p align="center">
+<img src="readme/images/riemannzetafunctionvalueplane.png" />
+<br/>
+<a href="R/RiemannZetaFunctionValuePlane.R">R code</a>
+</p>
 
-Number of zeros up to the height T (imaginary part of complex number)
-	N(T) x/(2*pi) * log(x/(2*pi)) - x/(2*pi)
-	graph
-	R code link
+Number of zeros up to the height T (imaginary part of complex number)  
+<p align="center">
+<img src="readme/images/zerosuptoheightformula.png" />
+<br/>
+<img src="readme/images/zerosuptoheight.png" />
+<br/>
+<a href="R/ZerosUpToHeight.R">R code</a>
+</p>
 
-Zeta function using Moebius function
-	1/Z(s) = sum over n of moebius(n)/n^s
-	graph
-	R code link
+Zeta function using Möbius function  
+<p align="center">
+<img src="readme/images/zetamobiusfunctionformula.png" />
+<br/>
+<img src="readme/images/zetamobiusfunction.png" />
+<br/>
+<a href="R/ZetaMobiusFunction.R">R code</a>
+</p>
 
-As important as the Moebius function is its cumulative value called Mertens's function, for which
-	M(k) = O(k^1/2)
-	graph
-	R code link
-The above is equivalent to Denjoy's Probabilistic Interpretation (see on wiki): 
-	a square-free number has either an even or odd number of prime factors with a 50-50 probability
+As important as the Möbius function is its cumulative value called Mertens's function, for which  
+<p align="center">
+<img src="readme/images/mertensfunctionformula.png" />
+<br/>
+<img src="readme/images/mertensfunction.png" />
+<br/>
+<a href="R/MertensFunction.R">R code</a>
+</p>
+The above is equivalent to Denjoy's Probabilistic Interpretation of the Riemann Hypothesis: a square-free number has either an even or odd number of prime factors with a 50-50 probability ([Edwards, H. M. (2001)], pp 268-269).  
 
 ###Riemann's 1859 paper main result
 Euler product formula
