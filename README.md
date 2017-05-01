@@ -1,10 +1,10 @@
-##A study of the distribution of primes using R
+## A study of the distribution of primes using R
 
 This repository is a collection of R scripts that visually represent some of the concepts exposed in [Derbyshire, J. (2004)] using a numerical analysis approach.
 
 [Derbyshire, J. (2004)] main objective is to show the connection between the distribution of primes and the zeros of the zeta function: this is the main result of Riemann's 1859 paper "On the number of primes less than a given Quantity" that also contains the unsolved Riemann Hypothesis.
 
-###Series
+### Series
 A series is the sum of the terms of a sequence of numbers. The series is convergent if approaches a given number, otherwise divergent.  
 An example of convergent series is  
 <p align="center">
@@ -23,7 +23,7 @@ The harmonic series diverges
 <a href="R/HarmonicSeries.R">R code</a>
 </p>
 
-###Functions
+### Functions
 A function is a relation between an input and a single output according to some rule.  
 Example of functions:  
 * a function whose rule is to count the number of factors for a given argument (referred also as d(N))  
@@ -34,7 +34,7 @@ Example of functions:
 <a href="R/FactorCountingFunction.R">R code</a>
 </p>
 
-###The Prime Counting Function
+### The Prime Counting Function
 The Prime Counting Function π(N), the central study of the Riemann's 1859 paper, is defined to be the number of primes up to N  
 <p align="center">
 <img src="readme/images/primecountingfunction.png" />
@@ -104,7 +104,7 @@ Inverting the above relationship
 <img src="readme/images/pifunctionrealformula.png" />
 </p>
 
-###Riemann's Zeta Function
+### Riemann's Zeta Function
 The Basel series converges (each term is the square of the corresponding term in the harmonic series which diverges)  
 <p align="center">
 <img src="readme/images/thebaselproblemformula.png" />
@@ -180,7 +180,7 @@ As important as the Möbius function is its cumulative value called Mertens's fu
 </p>
 The above is equivalent to Denjoy's Probabilistic Interpretation of the Riemann Hypothesis: a square-free number has either an even or odd number of prime factors with a 50-50 probability, [Edwards, H. M. (2001)], pp 268-269.  
 
-###Riemann's 1859 paper main result
+### Riemann's 1859 paper main result
 Euler product formula  
 <p align="center">
 <img src="readme/images/thegoldenkeyformula.png" />
@@ -225,7 +225,7 @@ That is the distribution of primes π(x) depends on the non-trivial zero's of th
 Since the Riemann Hypothesis is a statement on these zeros, if it is true, some properties follow on the distribution of primes.  
 However if the Riemann Hypothesis is false, Riemann's main result is still valid, in fact it was proved by von Mangoldt in 1895.  
 
-###References
+### References
 * [Derbyshire, J. (2004)] Prime Obsession: Bernhard Riemann and the Greatest Unsolved Problem in Mathematics, New York: Penguin
 * [Edwards, H. M. (2001)] Riemann's Zeta Function, New York: Dover 
 
